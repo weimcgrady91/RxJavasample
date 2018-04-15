@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RxJavasample.iml" filepath="$PROJECT_DIR$/RxJavasample.iml" />
+      <module fileurl="file://E:\all_ws\as_ws\RxJavasample\RxJavasample.iml" filepath="E:\all_ws\as_ws\RxJavasample\RxJavasample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\all_ws\as_ws\RxJavasample\app\app.iml" filepath="E:\all_ws\as_ws\RxJavasample\app\app.iml" />
     </modules>
   </component>
 </project>

@@ -15,6 +15,6 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         sContext = getApplicationContext();
-        Log.e("weiqun12345","main Thread name=" + Thread.currentThread().getName());
+        Log.e("weiqun12345","Application Thread id=" + Thread.currentThread().getId());
     }
 }

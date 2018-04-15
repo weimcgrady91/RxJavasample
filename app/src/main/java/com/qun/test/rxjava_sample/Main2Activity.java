@@ -19,6 +19,10 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import io.reactivex.Observable;
+import io.reactivex.ObservableEmitter;
+import io.reactivex.ObservableOnSubscribe;
+import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
@@ -53,7 +57,13 @@ public class Main2Activity extends AppCompatActivity {
 //            httpUtil.testVolleyPost();
 //            httpUtil.testVolleyJsonPost();
 //            httpUtil.testVolleyJsonArrayPost();
-            httpUtil.testVolleyGsonPost();
+//            httpUtil.testVolleyGsonPost();
+//            httpUtil.testOkhttpGet();
+//            httpUtil.testOkHttpPost();
+//            httpUtil.testRetrofitGet();
+//            httpUtil.testRetrofitPost();
+//            httpUtil.testReftrofitGet2();
+            httpUtil.testReftrofitGet3();
         });
         RxView.clicks(btn3).subscribe(s -> {
             String imgUrl = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523618064597&di=ac7de8388af7ee477a2a790e092b28b3&imgtype=0&src=http%3A%2F%2Feasyread.ph.126.net%2Fmzyb1ugXF8fP4jF6p2NB4A%3D%3D%2F7916994992896150040.jpg";
